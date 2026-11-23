@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta charset="UTF-8">
+<meta name="ad.size" content="width=300,height=600">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=300,initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Xilio Therapeutics, Inc. — Investor Relations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--
+  Xilio Therapeutics, Inc. — IR display banner, 300x600 — Concept A: Photo / Dark.
+  Promotes: https://ir-landing-concepts.netlify.app/xilio/
+  Full-bleed real photography per slide (Ken Burns zoom + scrims), a
+  floating stat chip, persistent logo/ticker chrome, stat row + CTA +
+  forward-looking-statements line. Concept C is generated from this file
+  (scripts/build_concept_c.py), so re-run that after every edit here.
+  Every slide's copy and stat must come from the live IR site.
+-->
+
+<div id="banner" aria-label="Xilio Therapeutics, Inc. investor relations advertisement">
+
+  <div id="slides">
+    <!-- Slide 1 -->
+    <section class="slide" data-index="0">
+      <img class="slide-bg" src="assets/slide-1.jpg" alt="Orange-toned microscopy-style image of cells, from Xilio's brand imagery">
+      <div class="slide-scrim-top"></div>
+      <div class="slide-scrim-bottom"></div>
+      <div class="slide-copy">
+        <div class="mid-chip">
+          <span class="chip-num"><em>2</em> pharma</span>
+          <span class="chip-label">Collaborations:<br>AbbVie and Gilead</span>
+        </div>
+        <div class="copy-bottom">
+          <div class="kicker">Masked immuno-oncology</div>
+          <h1>Designed to<br>switch on inside<br>the <em>tumor.</em></h1>
+          <p>Investigational I-O therapies built to stay masked in the body and activate in the tumor.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Slide 2 -->
+    <section class="slide" data-index="1">
+      <img class="slide-bg" src="assets/slide-2.jpg" alt="Laboratory scene in orange duotone: pipette, vial and sample tubes">
+      <div class="slide-scrim-top"></div>
+      <div class="slide-scrim-bottom"></div>
+      <div class="slide-copy">
+        <div class="mid-chip">
+          <span class="chip-num">Phase <em>1/2</em></span>
+          <span class="chip-label">XTX501: first patient dosed<br>(metastatic NSCLC)</span>
+        </div>
+        <div class="copy-bottom">
+          <div class="kicker">Now in the clinic</div>
+          <h1>PD-1 and masked<br>IL-2 in a<br><em>single molecule.</em></h1>
+          <p>Initial Phase 1 data in metastatic NSCLC planned for Q4 2027.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Slide 3 -->
+    <section class="slide" data-index="2">
+      <img class="slide-bg" src="assets/slide-3.jpg" alt="Orange-toned microscopy-style image of cells, from Xilio's brand imagery">
+      <div class="slide-scrim-top"></div>
+      <div class="slide-scrim-bottom"></div>
+      <div class="slide-copy">
+        <div class="mid-chip">
+          <span class="chip-num">~95<em>%</em></span>
+          <span class="chip-label">of metastatic CRPC expresses<br>PSMA and/or STEAP1 (company)</span>
+        </div>
+        <div class="copy-bottom">
+          <div class="kicker">Masked T cell engagers</div>
+          <h1>Built-in<br>co-stimulation,<br><em>masked CD3.</em></h1>
+          <p>XTX602 (CLDN18.2) and XTX701 (PSMA&times;STEAP1): IND filings planned Q4 2027.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Slide 4 -->
+    <section class="slide" data-index="3">
+      <img class="slide-bg" src="assets/slide-4.jpg" alt="Laboratory scene in orange duotone: pipette, vial and sample tubes">
+      <div class="slide-scrim-top"></div>
+      <div class="slide-scrim-bottom"></div>
+      <div class="slide-copy">
+        <div class="mid-chip">
+          <span class="chip-num">$135.5<em>M</em></span>
+          <span class="chip-label">Received from AbbVie and Gilead<br>to Sep 30, 2026 (incl. equity)</span>
+        </div>
+        <div class="copy-bottom">
+          <div class="kicker">Partnerships</div>
+          <h1>Backed by<br>AbbVie and<br><em>Gilead.</em></h1>
+          <p>Gilead option data package for masked IL-12 efarindodekin alfa expected 1H 2027.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Persistent chrome — sits above the rotating slides -->
+  <header id="top-bar" class="reveal" data-delay="0">
+    <div id="logo"><img class="lockup" src="assets/logo-white.svg" alt="Xilio Therapeutics" width="58" height="31"></div>
+    <div id="eyebrow">INVESTOR&nbsp;RELATIONS&nbsp;·&nbsp;Nasdaq:&nbsp;XLO</div>
+  </header>
+
+  <button type="button" class="nav-arrow" id="arrow-prev" aria-label="Previous slide">
+    <svg viewBox="0 0 16 16"><path d="M10 3 6 8l4 5" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <button type="button" class="nav-arrow" id="arrow-next" aria-label="Next slide">
+    <svg viewBox="0 0 16 16"><path d="M6 3l4 5-4 5" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <div id="bottom-fixed" class="reveal" data-delay="4">
+    <div id="dots" role="tablist" aria-label="Slide selector">
+      <button class="dot active" data-index="0" aria-label="Slide 1: Overview"></button>
+      <button class="dot" data-index="1" aria-label="Slide 2: Now in the clinic"></button>
+      <button class="dot" data-index="2" aria-label="Slide 3: Masked T cell engagers"></button>
+      <button class="dot" data-index="3" aria-label="Slide 4: Partnerships"></button>
+    </div>
+
+    <div id="stat-row">
+      <div class="stat">
+        <span class="stat-num">Q4 20<em>27</em></span>
+        <span class="stat-label">Initial XTX501 data (planned)</span>
+      </div>
+      <div class="stat-div"></div>
+      <div class="stat">
+        <span class="stat-num"><em>2</em> INDs</span>
+        <span class="stat-label">Planned Q4 2027 (TCEs)</span>
+      </div>
+    </div>
+
+    <a href="#" id="cta">
+      <span>View Investor Relations</span>
+      <svg viewBox="0 0 16 16" id="cta-arrow" aria-hidden="true"><path d="M4 8h8M8 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <p id="disclosure">All Xilio candidates are investigational and not FDA-approved. Timelines are company plans; partner payments beyond those received are contingent. Forward-looking; see SEC filings for risk factors.</p>
+  </div>
+
+  <!-- Standard HTML5-ad click-tag plumbing -->
+  <div id="click-tag-wrapper"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

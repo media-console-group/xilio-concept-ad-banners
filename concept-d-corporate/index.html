@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta charset="UTF-8">
+<meta name="ad.size" content="width=300,height=600">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=300,initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Xilio Therapeutics, Inc. — Investor Relations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--
+  Xilio Therapeutics, Inc. — IR display banner, 300x600 — Concept D: Corporate site / brand-native.
+  Promotes: https://ir-landing-concepts.netlify.app/xilio/
+  Styled from the company's own CORPORATE website (https://xiliotx.com/), not the IR
+  landing page that Concepts A-C are built from: its black header + logo
+  lockup, heading/body fonts, palette, accent underline bars, button style
+  and footer strip. "Homepage in miniature": each slide is one module of the
+  corporate homepage, alternating photo and light grounds. This build uses xiliotx.com's modules: 1 vision hero -> 2 approach text block -> 3 icon quick links -> 4 black footer band.
+  Module classes (m-hero / m-stats / m-split / m-band) and the shared parts
+  (d-stat, d-list, d-arrows) live in style.css; every colour is a :root token
+  filled from brand.json "corp". Re-module a slide if the site has no such
+  module. Photos are the site's own photography, cropped into assets/;
+  assets/logo.svg is the site's own logo file. Every claim comes from the
+  project fact sheet (.tmp/facts.md).
+-->
+
+<div id="banner" aria-label="Xilio Therapeutics, Inc. investor relations advertisement">
+
+  <div id="slides">
+
+    <!-- Slide 1 — Overview -->
+    <section class="slide x-hero" data-index="0">
+      <!-- Module: xiliotx.com homepage "Our Vision" hero: the orange cell banner with the translucent X,
+           light Museo heading over an orange-gradient underline, dark copy on the orange. The vision sentence is
+           the company's own (homepage). Facts: facts.md matrix 1 (AbbVie, Gilead collaborations). -->
+      <img class="x-photo" src="assets/slide-1.jpg" alt="">
+      <div class="x-copy">
+        <h2>Our Vision</h2>
+        <span class="x-bar"></span>
+        <p class="x-quote">&ldquo;We envision a brighter future for people living with cancer, where immuno-oncology therapies eliminate cancer at its source without severe systemic side effects.&rdquo;</p>
+      </div>
+      <div class="x-under">
+        <p class="x-lede">Clinical-stage, masked immuno-oncology therapies designed to activate in the tumor.</p>
+        <div class="d-stats">
+          <div class="d-stat"><p class="d-value">2</p><p class="d-label">Pharma collaborations: AbbVie and Gilead</p></div>
+          <div class="d-stat"><p class="d-value">Ph 1/2</p><p class="d-label">XTX501, first patient dosed</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 2 — Now in the clinic -->
+    <section class="slide x-text" data-index="1">
+      <!-- Module: xiliotx.com "Our Clinically-Validated Masking Technology and Approach" text block: large light
+           (weight 300) black heading, black body, round bullets. Facts: Q3 2026 release (Nov 10, 2026), XTX501. -->
+      <div class="x-copy">
+        <h2>XTX501: <span class="nw">PD-1</span> and Masked <span class="nw">IL-2</span> in One Molecule</h2>
+        <span class="x-bar"></span>
+        <p>An investigational bispecific designed to pair PD-1 inhibition with a masked, alpha-optimized IL-2 that is meant to activate in the tumor.</p>
+        <ul class="x-list">
+          <li>First patient dosed in the Phase 1/2 trial in metastatic non-small cell lung cancer and select advanced solid tumors</li>
+          <li>Trial design presented at the SITC 41st Annual Meeting</li>
+        </ul>
+        <div class="d-stats">
+          <div class="d-stat"><p class="d-value">Q4 2027</p><p class="d-label">Initial Phase 1 data in metastatic NSCLC (planned)</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 3 — Pipeline -->
+    <section class="slide x-links" data-index="2">
+      <!-- Module: xiliotx.com homepage quick-link row: orange line icons in orange rings, large light orange
+           titles, thin grey dividers between columns (2x2 here). Icons are the site's own files.
+           Facts: Q3 2026 release pipeline and milestones. -->
+      <h2>Our Pipeline</h2>
+      <span class="x-bar"></span>
+      <div class="x-grid">
+        <div class="x-cell"><img src="assets/pipeline-link.svg" alt=""><p class="x-name">XTX501</p><p class="x-sub">PD-1/masked IL-2<br>Phase 1/2 underway</p></div>
+        <div class="x-cell"><img src="assets/icon-platform.png" alt=""><p class="x-name">XTX602</p><p class="x-sub">Masked CLDN18.2 TCE<br>IND planned Q4 2027</p></div>
+        <div class="x-cell"><img src="assets/icon-platform.png" alt=""><p class="x-name">XTX701</p><p class="x-sub">PSMA&times;STEAP1 TCE<br>IND planned Q4 2027</p></div>
+        <div class="x-cell"><img src="assets/team-link.svg" alt=""><p class="x-name">Efarindodekin alfa</p><p class="x-sub">Masked IL-12, Phase 2<br>Gilead data package 1H 2027</p></div>
+      </div>
+    </section>
+
+    <!-- Slide 4 — Partnerships -->
+    <section class="slide x-band" data-index="3">
+      <!-- Module: xiliotx.com black footer, with the hero's orange cell field faded in behind it and the
+           site's orange gradient rule. Facts: Q3 2026 10-Q payments received (AbbVie $63.0M, Gilead $72.5M). -->
+      <img class="x-photo" src="assets/slide-4.jpg" alt="">
+      <div class="x-copy">
+        <h2>Partnerships</h2>
+        <span class="x-bar"></span>
+        <p>Xilio&rsquo;s masking technology underpins collaborations with AbbVie and Gilead.</p>
+        <div class="d-stats">
+          <div class="d-stat"><p class="d-value">$135.5M</p><p class="d-label">Received from both partners to Sep 30, 2026, incl. $35.0M of equity purchases</p></div>
+          <div class="d-stat"><p class="d-value">1H 2027</p><p class="d-label">Expected Gilead option data package</p></div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Persistent chrome — the corporate site's header, never rotates -->
+  <header id="top-bar" class="reveal" data-delay="0">
+    <img id="logo" src="assets/logo.svg" alt="Xilio Therapeutics, Inc." width="64" height="34">
+    <span id="ticker">Nasdaq:&nbsp;XLO</span>
+  </header>
+
+  <!-- Slider controls: round buttons in the site's orange -->
+  <button type="button" class="nav-arrow" id="arrow-prev" aria-label="Previous slide">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 6 8l4 5" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <button type="button" class="nav-arrow" id="arrow-next" aria-label="Next slide">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l4 5-4 5" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <div id="bottom-fixed" class="reveal" data-delay="4">
+    <div id="dots" role="tablist" aria-label="Slide selector">
+      <button class="dot active" data-index="0" aria-label="Slide 1: Overview"></button>
+      <button class="dot" data-index="1" aria-label="Slide 2: Now in the clinic"></button>
+      <button class="dot" data-index="2" aria-label="Slide 3: Pipeline"></button>
+      <button class="dot" data-index="3" aria-label="Slide 4: Partnerships"></button>
+    </div>
+
+    <!-- The corporate site's .btn: radius/gradient border from brand.json corp, arrow after the label -->
+    <a href="#" id="cta">
+      <span>Investors &amp; Media</span>
+      <svg id="cta-arrow" viewBox="0 0 24 25" aria-hidden="true"><path d="M12 4.18066L10.585 5.59566L16.17 11.1807H4V13.1807H16.17L10.585 18.7657L12 20.1807L20 12.1807L12 4.18066Z"/></svg>
+    </a>
+
+    <!-- The corporate site's footer strip, carrying the required forward-looking-statements line -->
+    <p id="fls"><span>All candidates are investigational and not FDA-approved. Timelines are company plans; further partner payments are contingent. See SEC filings for risk factors.</span></p>
+  </div>
+
+  <!-- Standard HTML5-ad click-tag plumbing -->
+  <div id="click-tag-wrapper"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
